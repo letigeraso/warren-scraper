@@ -7,6 +7,7 @@ on:
 
 jobs:
   run-warren-scraper:
+    name: Daily Warren Scraper
     runs-on: ubuntu-latest
 
     steps:
