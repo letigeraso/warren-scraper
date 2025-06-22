@@ -3,35 +3,35 @@ name: Daily Warren Scraper
 on:
   schedule:
     - cron: '0 5 * * *'  # Runs at 07:00 CET daily
-  workflow_dispatch:     # Allows manual run
+  workflow_dispatch:     # Manual trigger via GitHub UI
 
 jobs:
   run-warren-scraper:
+    name: Daily Warren Scraper
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Run Warren Scraper
-      run: npm start
+      - name: Run Warren Scraper
+        run: npm start
 
-    - name: Upload output as artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: warrens-daily-output
-        path: warrensoutputfile.json
+      - name: Upload output as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: warrens-daily-output
+          path: warrensoutputfile.json
 
-    - name: Upload to Google Drive
-      run: |
-        pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
-        python upload_to_drive.py
-
+      - name: Upload to Google Drive
+        run: |
+          pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+          python upload_to_drive.py
