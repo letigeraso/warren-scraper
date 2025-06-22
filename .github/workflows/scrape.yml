@@ -31,7 +31,10 @@ jobs:
           name: warrens-daily-output
           path: warrensoutputfile.json
 
-      - name: Upload to Google Drive
+      - name: Commit and push output to GitHub
         run: |
-          pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
-          python upload_to_drive.py
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add warrensoutputfile.json
+          git commit -m "🔄 Auto-update Warren output $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
