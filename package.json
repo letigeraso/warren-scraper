@@ -1,0 +1,11 @@
+{
+  "name": "warren-scraper",
+  "version": "1.0.0",
+  "main": "Warrensnews.js",
+  "scripts": {
+    "start": "node Warrensnews.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  }
+}
