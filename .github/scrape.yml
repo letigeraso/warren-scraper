@@ -34,4 +34,4 @@ jobs:
       - name: Upload to Google Drive
         run: |
           pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
-          python upload_to_cloud.py
+          python upload_to_drive.py
