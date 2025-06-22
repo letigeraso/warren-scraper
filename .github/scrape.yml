@@ -3,7 +3,7 @@ name: Daily Warren Scraper
 on:
   schedule:
     - cron: '0 5 * * *'  # Runs at 07:00 CET daily
-  workflow_dispatch:     # Allows manual run from GitHub interface
+  workflow_dispatch:     # Manual trigger via GitHub UI
 
 jobs:
   run-warren-scraper:
@@ -33,4 +33,4 @@ jobs:
       - name: Upload to Google Drive
         run: |
           pip install --upgrade google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
-          python upload_to_drive.py
+          python upload_to_cloud.py
