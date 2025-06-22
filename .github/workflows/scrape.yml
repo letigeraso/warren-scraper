@@ -32,9 +32,12 @@ jobs:
           path: warrensoutputfile.json
 
       - name: Commit and push output to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git add warrensoutputfile.json
-          git commit -m "🔄 Auto-update Warren output $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "🔄 Auto-update Warren output $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
