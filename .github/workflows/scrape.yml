@@ -25,7 +25,7 @@ jobs:
       run: npm start
 
     - name: Upload output as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: warrens-daily-output
         path: warrensoutputfile.json
