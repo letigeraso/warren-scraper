@@ -8,15 +8,17 @@
     "change": -51.47,
     "avgVolume": 2101000,
     "fiftyTwoWeekChange": 67.37,
-    "relVolume": null,
-    "epsDilTTM": null,
-    "epsDilGrowthTTMYOY": null,
-    "divYieldTTM": null,
-    "sector": null,
-    "analystRating": null,
-    "rsi14": null,
+    "relVolume": 0,
+    "epsDilTTM": 2.06,
+    "epsDilGrowthTTMYOY": 152.32,
+    "divYieldTTM": 0.12,
+    "sector": "Technology services",
+    "analystRating": "Buy",
+    "rsi14": 13.22,
     "source": [
-      "Yahoo Finance"
+      "Yahoo Finance",
+      "TradingView Losers",
+      "TradingView Oversold"
     ],
     "marketCap": 4245000000,
     "peRatio": 45.93
@@ -674,16 +676,15 @@
     "change": -1.55,
     "avgVolume": 1121000,
     "fiftyTwoWeekChange": -0.9,
-    "relVolume": 2.12,
-    "epsDilTTM": -0.29,
-    "epsDilGrowthTTMYOY": -761.66,
-    "divYieldTTM": 0,
-    "sector": "Technology services",
-    "analystRating": "Buy",
-    "rsi14": 27.54,
+    "relVolume": null,
+    "epsDilTTM": null,
+    "epsDilGrowthTTMYOY": null,
+    "divYieldTTM": null,
+    "sector": null,
+    "analystRating": null,
+    "rsi14": null,
     "source": [
-      "Yahoo Finance",
-      "TradingView Oversold"
+      "Yahoo Finance"
     ],
     "marketCap": 5384000000,
     "peRatio": null
@@ -2916,28 +2917,6 @@
     "peRatio": null
   },
   {
-    "ticker": "MVST",
-    "price": 3.91,
-    "percentChange": -9.7,
-    "volume": 10440000,
-    "name": null,
-    "change": null,
-    "avgVolume": null,
-    "fiftyTwoWeekChange": null,
-    "relVolume": 1.5,
-    "epsDilTTM": -0.45,
-    "epsDilGrowthTTMYOY": -37.9,
-    "divYieldTTM": 0,
-    "sector": "Producer manufacturing",
-    "analystRating": "Buy",
-    "rsi14": null,
-    "source": [
-      "TradingView Losers"
-    ],
-    "marketCap": 1270000000,
-    "peRatio": null
-  },
-  {
     "ticker": "EVGO",
     "price": 3.91,
     "percentChange": -9.7,
@@ -2957,6 +2936,28 @@
       "TradingView Losers"
     ],
     "marketCap": 1200000000,
+    "peRatio": null
+  },
+  {
+    "ticker": "MVST",
+    "price": 3.91,
+    "percentChange": -9.7,
+    "volume": 10440000,
+    "name": null,
+    "change": null,
+    "avgVolume": null,
+    "fiftyTwoWeekChange": null,
+    "relVolume": 1.5,
+    "epsDilTTM": -0.45,
+    "epsDilGrowthTTMYOY": -37.9,
+    "divYieldTTM": 0,
+    "sector": "Producer manufacturing",
+    "analystRating": "Buy",
+    "rsi14": null,
+    "source": [
+      "TradingView Losers"
+    ],
+    "marketCap": 1270000000,
     "peRatio": null
   },
   {
