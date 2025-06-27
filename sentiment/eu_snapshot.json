@@ -1,0 +1,923 @@
+{
+  "ASML.AS": {
+    "name": "ASML Holding",
+    "country": "Netherlands",
+    "sector": "Technology",
+    "price": 682.1,
+    "percentChange": 0.69,
+    "rsi": 58.58,
+    "oversold": false,
+    "inPortfolio": true
+  },
+  "ASML.DE": {
+    "name": "ASML Holding",
+    "country": "Netherlands",
+    "sector": "Technology",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ADYEN.AS": {
+    "name": "Adyen NV",
+    "country": "Netherlands",
+    "sector": "Technology",
+    "price": 1576.8,
+    "percentChange": 2.92,
+    "rsi": 42.53,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ADYEN.DE": {
+    "name": "Adyen NV",
+    "country": "Netherlands",
+    "sector": "Technology",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "LVMH.PA": {
+    "name": "LVMH",
+    "country": "France",
+    "sector": "Consumer Goods",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "LVMH.DE": {
+    "name": "LVMH",
+    "country": "France",
+    "sector": "Consumer Goods",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SAP.DE": {
+    "name": "SAP SE",
+    "country": "Germany",
+    "sector": "Technology",
+    "price": 257.35,
+    "percentChange": 2.27,
+    "rsi": 45.95,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SAP.F": {
+    "name": "SAP SE",
+    "country": "Germany",
+    "sector": "Technology",
+    "price": 256.9,
+    "percentChange": 1.84,
+    "rsi": 45.4,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NOVO-B.CO": {
+    "name": "Novo Nordisk",
+    "country": "Denmark",
+    "sector": "Healthcare",
+    "price": 437.5,
+    "percentChange": 1.52,
+    "rsi": 43.24,
+    "oversold": false,
+    "inPortfolio": true
+  },
+  "NOVC.DE": {
+    "name": "Novo Nordisk",
+    "country": "Denmark",
+    "sector": "Healthcare",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SU.PA": {
+    "name": "Schneider Electric",
+    "country": "France",
+    "sector": "Industrials",
+    "price": 229.65,
+    "percentChange": 6.29,
+    "rsi": 62.37,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SNE.DE": {
+    "name": "Schneider Electric",
+    "country": "France",
+    "sector": "Industrials",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "MBG.DE": {
+    "name": "Mercedes-Benz Group AG",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 50.34,
+    "percentChange": 4.54,
+    "rsi": 45.18,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "VOW3.DE": {
+    "name": "Volkswagen AG",
+    "country": "Germany",
+    "sector": "Automotive",
+    "price": 91.44,
+    "percentChange": 4.0,
+    "rsi": 46.13,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BMW.DE": {
+    "name": "BMW",
+    "country": "Germany",
+    "sector": "Automotive",
+    "price": 76.48,
+    "percentChange": 4.82,
+    "rsi": 51.51,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "AIR.PA": {
+    "name": "Airbus",
+    "country": "France",
+    "sector": "Aerospace",
+    "price": 178.3,
+    "percentChange": 1.25,
+    "rsi": 73.55,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "AIR.DE": {
+    "name": "Airbus",
+    "country": "France",
+    "sector": "Aerospace",
+    "price": 178.36,
+    "percentChange": 1.34,
+    "rsi": 73.67,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BAS.DE": {
+    "name": "BASF SE",
+    "country": "Germany",
+    "sector": "Chemicals",
+    "price": 42.84,
+    "percentChange": 2.37,
+    "rsi": 55.1,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "IFX.DE": {
+    "name": "Infineon Technologies AG",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": 35.64,
+    "percentChange": 0.55,
+    "rsi": 58.42,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ENEL.MI": {
+    "name": "Enel",
+    "country": "Italy",
+    "sector": "Utilities",
+    "price": 8.06,
+    "percentChange": -0.05,
+    "rsi": 48.42,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ENI.MI": {
+    "name": "ENI",
+    "country": "Italy",
+    "sector": "Energy",
+    "price": 13.82,
+    "percentChange": 0.83,
+    "rsi": 64.75,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DAN.CO": {
+    "name": "Danaher",
+    "country": "Denmark",
+    "sector": "Healthcare",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SIE.DE": {
+    "name": "Siemens",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 222.65,
+    "percentChange": 3.63,
+    "rsi": 67.96,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ABI.BR": {
+    "name": "Anheuser-Busch InBev",
+    "country": "Belgium",
+    "sector": "Consumer Goods",
+    "price": 58.6,
+    "percentChange": -0.78,
+    "rsi": 25.27,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "NOKIA.HE": {
+    "name": "Nokia",
+    "country": "Finland",
+    "sector": "Telecommunications",
+    "price": 4.39,
+    "percentChange": 0.83,
+    "rsi": 35.71,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SAN.PA": {
+    "name": "Sanofi",
+    "country": "France",
+    "sector": "Healthcare",
+    "price": 82.47,
+    "percentChange": 0.21,
+    "rsi": 32.85,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "MC.PA": {
+    "name": "LVMH",
+    "country": "France",
+    "sector": "Consumer Goods",
+    "price": 448.9,
+    "percentChange": 2.59,
+    "rsi": 36.72,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "OR.PA": {
+    "name": "L'Oreal",
+    "country": "France",
+    "sector": "Consumer Goods",
+    "price": 355.8,
+    "percentChange": 1.73,
+    "rsi": 39.56,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "PHIA.AS": {
+    "name": "Philips",
+    "country": "Netherlands",
+    "sector": "Healthcare",
+    "price": 20.63,
+    "percentChange": 0.54,
+    "rsi": 57.83,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "MT.AS": {
+    "name": "ArcelorMittal",
+    "country": "Luxembourg",
+    "sector": "Materials",
+    "price": 26.94,
+    "percentChange": -0.26,
+    "rsi": 54.0,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "FER.MC": {
+    "name": "Ferrovial",
+    "country": "Spain",
+    "sector": "Infrastructure",
+    "price": 45.33,
+    "percentChange": 0.94,
+    "rsi": 59.05,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "IBE.MC": {
+    "name": "Iberdrola",
+    "country": "Spain",
+    "sector": "Utilities",
+    "price": 16.36,
+    "percentChange": -0.18,
+    "rsi": 55.94,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "REP.MC": {
+    "name": "Repsol",
+    "country": "Spain",
+    "sector": "Energy",
+    "price": 12.53,
+    "percentChange": 0.97,
+    "rsi": 62.2,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SGO.PA": {
+    "name": "Saint-Gobain",
+    "country": "France",
+    "sector": "Materials",
+    "price": 100.75,
+    "percentChange": 2.95,
+    "rsi": 61.09,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DTE.DE": {
+    "name": "Deutsche Telekom",
+    "country": "Germany",
+    "sector": "Telecom",
+    "price": 31.04,
+    "percentChange": 0.98,
+    "rsi": 38.31,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ZAL.DE": {
+    "name": "Zalando SE",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 26.99,
+    "percentChange": -0.41,
+    "rsi": 26.89,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "HELN.SW": {
+    "name": "Helvetia",
+    "country": "Switzerland",
+    "sector": "Financials",
+    "price": 186.1,
+    "percentChange": 1.31,
+    "rsi": 42.09,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "UBSG.SW": {
+    "name": "UBS Group",
+    "country": "Switzerland",
+    "sector": "Financials",
+    "price": 26.78,
+    "percentChange": 1.36,
+    "rsi": 56.26,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "CSGN.SW": {
+    "name": "Credit Suisse",
+    "country": "Switzerland",
+    "sector": "Financials",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NESN.SW": {
+    "name": "Nestle",
+    "country": "Switzerland",
+    "sector": "Consumer Goods",
+    "price": 79.29,
+    "percentChange": 0.38,
+    "rsi": 17.49,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "ROG.SW": {
+    "name": "Roche",
+    "country": "Switzerland",
+    "sector": "Healthcare",
+    "price": 261.6,
+    "percentChange": -0.19,
+    "rsi": 52.27,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NOVN.SW": {
+    "name": "Novartis",
+    "country": "Switzerland",
+    "sector": "Healthcare",
+    "price": 96.18,
+    "percentChange": 0.17,
+    "rsi": 65.05,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "MTX.DE": {
+    "name": "MTU Aero Engines AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 372.9,
+    "percentChange": 0.67,
+    "rsi": 67.04,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BAYN.DE": {
+    "name": "Bayer AG",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 26.92,
+    "percentChange": 2.45,
+    "rsi": 67.4,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "LIN.DE": {
+    "name": "Linde PLC",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 397.0,
+    "percentChange": 0.3,
+    "rsi": 41.17,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "VNA.DE": {
+    "name": "Vonovia SE",
+    "country": "Germany",
+    "sector": "Real Estate",
+    "price": 30.02,
+    "percentChange": 1.9,
+    "rsi": 60.7,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SRT3.DE": {
+    "name": "Sartorius AG",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 219.5,
+    "percentChange": 0.64,
+    "rsi": 59.75,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BEI.DE": {
+    "name": "Beiersdorf AG",
+    "country": "Germany",
+    "sector": "Consumer Staples",
+    "price": 107.1,
+    "percentChange": 1.09,
+    "rsi": 26.29,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "DHER.DE": {
+    "name": "Delivery Hero SE",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 22.27,
+    "percentChange": 0.18,
+    "rsi": 40.13,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SY1.DE": {
+    "name": "Symrise AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 95.2,
+    "percentChange": 0.95,
+    "rsi": 25.59,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "FRE.DE": {
+    "name": "Fresenius SE & Co. KGaA",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 42.5,
+    "percentChange": 0.73,
+    "rsi": 47.14,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "1COV.DE": {
+    "name": "Covestro AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 60.38,
+    "percentChange": -0.26,
+    "rsi": 52.12,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "PAH3.DE": {
+    "name": "Porsche Automobil Holding SE",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 34.23,
+    "percentChange": 3.57,
+    "rsi": 47.51,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ENR.DE": {
+    "name": "Encavis AG",
+    "country": "Germany",
+    "sector": "Utilities",
+    "price": 94.88,
+    "percentChange": 2.13,
+    "rsi": 70.05,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "RHK.DE": {
+    "name": "Rheinmetall AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 11.9,
+    "percentChange": 1.71,
+    "rsi": 42.19,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SDF.DE": {
+    "name": "K+S AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 15.67,
+    "percentChange": -0.57,
+    "rsi": 42.83,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BC8.DE": {
+    "name": "Bechtle AG",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": 39.02,
+    "percentChange": 0.77,
+    "rsi": 58.22,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NDA.DE": {
+    "name": "Aurubis AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 88.55,
+    "percentChange": 1.55,
+    "rsi": 77.0,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "WAF.DE": {
+    "name": "Siltronic AG",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": 41.54,
+    "percentChange": 0.53,
+    "rsi": 66.77,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "EVK.DE": {
+    "name": "Evonik Industries AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 18.38,
+    "percentChange": 2.8,
+    "rsi": 43.88,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "LEG.DE": {
+    "name": "LEG Immobilien SE",
+    "country": "Germany",
+    "sector": "Real Estate",
+    "price": 75.7,
+    "percentChange": 0.6,
+    "rsi": 53.03,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "QIA.DE": {
+    "name": "Qiagen N.V.",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 40.9,
+    "percentChange": -0.79,
+    "rsi": 61.24,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "RAA.DE": {
+    "name": "Rational AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 724.0,
+    "percentChange": 1.76,
+    "rsi": 54.23,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "GXI.DE": {
+    "name": "Gerresheimer AG",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 48.16,
+    "percentChange": 1.43,
+    "rsi": 29.1,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "HOT.DE": {
+    "name": "Hochtief AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 165.7,
+    "percentChange": 1.72,
+    "rsi": 60.97,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DEQ.DE": {
+    "name": "Deutsche EuroShop AG",
+    "country": "Germany",
+    "sector": "Real Estate",
+    "price": 22.9,
+    "percentChange": 0.44,
+    "rsi": 76.13,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ARL.DE": {
+    "name": "Aareal Bank AG",
+    "country": "Germany",
+    "sector": "Financials",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BOSS.DE": {
+    "name": "Hugo Boss AG",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 38.85,
+    "percentChange": 1.73,
+    "rsi": 42.49,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "FIE.DE": {
+    "name": "Fielmann AG",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 53.8,
+    "percentChange": -0.19,
+    "rsi": 40.24,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "HNR1.DE": {
+    "name": "Hannover R\u00fcck SE",
+    "country": "Germany",
+    "sector": "Financials",
+    "price": 266.4,
+    "percentChange": 0.83,
+    "rsi": 35.55,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DRI.DE": {
+    "name": "D\u00fcrr AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "GIL.DE": {
+    "name": "Gildemeister AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 45.8,
+    "percentChange": 0.0,
+    "rsi": 58.33,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NDX1.DE": {
+    "name": "Nordex SE",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 17.33,
+    "percentChange": -0.57,
+    "rsi": 46.15,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SGL.DE": {
+    "name": "SGL Carbon SE",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 3.62,
+    "percentChange": 1.69,
+    "rsi": 50.96,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "AFX.DE": {
+    "name": "Carl Zeiss Meditec AG",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 56.65,
+    "percentChange": 0.44,
+    "rsi": 49.9,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "TKA.DE": {
+    "name": "ThyssenKrupp AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 9.05,
+    "percentChange": 0.42,
+    "rsi": 61.31,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DUE.DE": {
+    "name": "D\u00fcrr AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 22.4,
+    "percentChange": 0.45,
+    "rsi": 47.02,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "WCH.DE": {
+    "name": "Wacker Chemie AG",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 64.1,
+    "percentChange": 1.91,
+    "rsi": 56.28,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "KRN.DE": {
+    "name": "Krones AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 139.8,
+    "percentChange": 1.16,
+    "rsi": 55.97,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "ADJ.DE": {
+    "name": "Adler Group S.A.",
+    "country": "Germany",
+    "sector": "Real Estate",
+    "price": 0.24,
+    "percentChange": 0.85,
+    "rsi": 36.67,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "EVT.DE": {
+    "name": "Evotec SE",
+    "country": "Germany",
+    "sector": "Healthcare",
+    "price": 7.14,
+    "percentChange": -0.72,
+    "rsi": 55.55,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "VOS.DE": {
+    "name": "Vossloh AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 83.2,
+    "percentChange": 4.26,
+    "rsi": 71.55,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "HHFA.DE": {
+    "name": "HHLA AG",
+    "country": "Germany",
+    "sector": "Industrials",
+    "price": 18.9,
+    "percentChange": -0.53,
+    "rsi": 82.96,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "KCO.DE": {
+    "name": "Kloeckner & Co SE",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 5.95,
+    "percentChange": 0.51,
+    "rsi": 39.0,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "NEM.DE": {
+    "name": "Nemetschek SE",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": 121.4,
+    "percentChange": 1.25,
+    "rsi": 51.4,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "GFT.DE": {
+    "name": "GFT Technologies SE",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": 22.6,
+    "percentChange": 0.67,
+    "rsi": 45.53,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BNR.DE": {
+    "name": "Brenntag SE",
+    "country": "Germany",
+    "sector": "Materials",
+    "price": 58.18,
+    "percentChange": 1.25,
+    "rsi": 47.16,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "DWNI.DE": {
+    "name": "Deutsche Wohnen SE",
+    "country": "Germany",
+    "sector": "Real Estate",
+    "price": 24.05,
+    "percentChange": 1.26,
+    "rsi": 63.42,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "PUM.DE": {
+    "name": "Puma SE",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 22.8,
+    "percentChange": 3.12,
+    "rsi": 53.45,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "SOW.DE": {
+    "name": "Software AG",
+    "country": "Germany",
+    "sector": "Information Technology",
+    "price": null,
+    "percentChange": null,
+    "rsi": null,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "BVB.DE": {
+    "name": "Borussia Dortmund GmbH & Co. KGaA",
+    "country": "Germany",
+    "sector": "Communication Services",
+    "price": 3.87,
+    "percentChange": 0.91,
+    "rsi": 54.8,
+    "oversold": false,
+    "inPortfolio": false
+  },
+  "HFG.DE": {
+    "name": "HELLOFRESH SE",
+    "country": "Germany",
+    "sector": "Consumer Discretionary",
+    "price": 7.93,
+    "percentChange": -1.98,
+    "rsi": 17.85,
+    "oversold": true,
+    "inPortfolio": false
+  },
+  "_date": "2025-06-27T15:48:28.801029"
+}
