@@ -1,0 +1,96 @@
+ticker,name,country,sector
+ASML.AS,ASML Holding,Netherlands,Technology
+ASML.DE,ASML Holding,Netherlands,Technology
+ADYEN.AS,Adyen NV,Netherlands,Technology
+ADYEN.DE,Adyen NV,Netherlands,Technology
+LVMH.PA,LVMH,France,Consumer Goods
+LVMH.DE,LVMH,France,Consumer Goods
+SAP.DE,SAP SE,Germany,Technology
+SAP.F,SAP SE,Germany,Technology
+NOVO-B.CO,Novo Nordisk,Denmark,Healthcare
+NOVC.DE,Novo Nordisk,Denmark,Healthcare
+SU.PA,Schneider Electric,France,Industrials
+SNE.DE,Schneider Electric,France,Industrials
+MBG.DE,Mercedes-Benz Group,Germany,Automotive
+VOW3.DE,Volkswagen AG,Germany,Automotive
+BMW.DE,BMW,Germany,Automotive
+AIR.PA,Airbus,France,Aerospace
+AIR.DE,Airbus,France,Aerospace
+BAS.DE,BASF SE,Germany,Chemicals
+IFX.DE,Infineon,Germany,Semiconductors
+ENEL.MI,Enel,Italy,Utilities
+ENI.MI,ENI,Italy,Energy
+DAN.CO,Danaher,Denmark,Healthcare
+SIE.DE,Siemens,Germany,Industrials
+ABI.BR,Anheuser-Busch InBev,Belgium,Consumer Goods
+NOKIA.HE,Nokia,Finland,Telecommunications
+SAN.PA,Sanofi,France,Healthcare
+MC.PA,LVMH,France,Consumer Goods
+OR.PA,L'Oreal,France,Consumer Goods
+PHIA.AS,Philips,Netherlands,Healthcare
+MT.AS,ArcelorMittal,Luxembourg,Materials
+FER.MC,Ferrovial,Spain,Infrastructure
+IBE.MC,Iberdrola,Spain,Utilities
+REP.MC,Repsol,Spain,Energy
+SGO.PA,Saint-Gobain,France,Materials
+DTE.DE,Deutsche Telekom,Germany,Telecom
+ZAL.DE,Zalando,Germany,Consumer Discretionary
+HELN.SW,Helvetia,Switzerland,Financials
+UBSG.SW,UBS Group,Switzerland,Financials
+CSGN.SW,Credit Suisse,Switzerland,Financials
+NESN.SW,Nestle,Switzerland,Consumer Goods
+ROG.SW,Roche,Switzerland,Healthcare
+NOVN.SW,Novartis,Switzerland,Healthcare
+MTX.DE,MTU Aero Engines AG,Germany,Industrials
+BAYN.DE,Bayer AG,Germany,Healthcare
+LIN.DE,Linde PLC,Germany,Materials
+MBG.DE,Mercedes-Benz Group AG,Germany,Consumer Discretionary
+VNA.DE,Vonovia SE,Germany,Real Estate
+IFX.DE,Infineon Technologies AG,Germany,Information Technology
+SRT3.DE,Sartorius AG,Germany,Healthcare
+BEI.DE,Beiersdorf AG,Germany,Consumer Staples
+DHER.DE,Delivery Hero SE,Germany,Consumer Discretionary
+ZAL.DE,Zalando SE,Germany,Consumer Discretionary
+SY1.DE,Symrise AG,Germany,Materials
+FRE.DE,Fresenius SE & Co. KGaA,Germany,Healthcare
+1COV.DE,Covestro AG,Germany,Materials
+PAH3.DE,Porsche Automobil Holding SE,Germany,Consumer Discretionary
+ENR.DE,Encavis AG,Germany,Utilities
+RHK.DE,Rheinmetall AG,Germany,Industrials
+SDF.DE,K+S AG,Germany,Materials
+BC8.DE,Bechtle AG,Germany,Information Technology
+NDA.DE,Aurubis AG,Germany,Materials
+WAF.DE,Siltronic AG,Germany,Information Technology
+EVK.DE,Evonik Industries AG,Germany,Materials
+LEG.DE,LEG Immobilien SE,Germany,Real Estate
+QIA.DE,Qiagen N.V.,Germany,Healthcare
+RAA.DE,Rational AG,Germany,Industrials
+GXI.DE,Gerresheimer AG,Germany,Healthcare
+HOT.DE,Hochtief AG,Germany,Industrials
+DEQ.DE,Deutsche EuroShop AG,Germany,Real Estate
+ARL.DE,Aareal Bank AG,Germany,Financials
+BOSS.DE,Hugo Boss AG,Germany,Consumer Discretionary
+FIE.DE,Fielmann AG,Germany,Consumer Discretionary
+HNR1.DE,Hannover Rück SE,Germany,Financials
+DRI.DE,Dürr AG,Germany,Industrials
+GIL.DE,Gildemeister AG,Germany,Industrials
+NDX1.DE,Nordex SE,Germany,Industrials
+SGL.DE,SGL Carbon SE,Germany,Materials
+AFX.DE,Carl Zeiss Meditec AG,Germany,Healthcare
+TKA.DE,ThyssenKrupp AG,Germany,Materials
+DUE.DE,Dürr AG,Germany,Industrials
+WCH.DE,Wacker Chemie AG,Germany,Materials
+KRN.DE,Krones AG,Germany,Industrials
+ADJ.DE,Adler Group S.A.,Germany,Real Estate
+EVT.DE,Evotec SE,Germany,Healthcare
+VOS.DE,Vossloh AG,Germany,Industrials
+HHFA.DE,HHLA AG,Germany,Industrials
+KCO.DE,Kloeckner & Co SE,Germany,Materials
+NEM.DE,Nemetschek SE,Germany,Information Technology
+GFT.DE,GFT Technologies SE,Germany,Information Technology
+BNR.DE,Brenntag SE,Germany,Materials
+DWNI.DE,Deutsche Wohnen SE,Germany,Real Estate
+PUM.DE,Puma SE,Germany,Consumer Discretionary
+SOW.DE,Software AG,Germany,Information Technology
+BVB.DE,Borussia Dortmund GmbH & Co. KGaA,Germany,Communication Services
+HFG.DE,HELLOFRESH SE,Germany,Consumer Discretionary
