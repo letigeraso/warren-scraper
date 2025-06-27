@@ -3,7 +3,7 @@ name: 📊 Daily Warren + Sentiment Scrape
 on:
   workflow_dispatch:      # allows manual runs
   schedule:
-    - cron: '30 6 * * 1-5'  # runs every weekday at 06:30 UTC
+    - cron: '30 6 * * 1-5'  # runs every weekday at 06:30 UTC (08:30 CET)
 
 jobs:
   build:
@@ -20,12 +20,16 @@ jobs:
 
     - name: 📦 Install dependencies
       run: |
-        pip install playwright beautifulsoup4
+        pip install playwright beautifulsoup4 yfinance
         playwright install chromium
 
     - name: 🤖 Run Swaggy sentiment scraper
       run: |
         python sentiment/swaggy_scraper.py
+
+    - name: 🧠 Run EU Snapshot (Novo, ASML, RELX, etc)
+      run: |
+        python eu_snapshot.py
 
     - name: 🔁 Merge Warren + Swaggy output
       run: |
@@ -35,6 +39,7 @@ jobs:
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add warrensoutputfile.json sentiment/swaggystocks_sentiment.json combined_output.json
+        git add warrensoutputfile.json sentiment/swaggystocks_sentiment.json sentiment/eu_snapshot.json combined_output.json
         git commit -m "🔄 Daily auto-update $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         git push
+
