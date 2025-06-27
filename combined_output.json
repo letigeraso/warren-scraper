@@ -4584,7 +4584,7 @@
   "wallstreetbets_sentiment": [
     {
       "ticker": "TSLA",
-      "mentions": 117,
+      "mentions": 140,
       "earnings": "04-23-2025 (-65 days)",
       "market_cap": "847.71B",
       "call_to_put_oi_ratio": 0.52,
@@ -4593,7 +4593,7 @@
     },
     {
       "ticker": "GLD",
-      "mentions": 88,
+      "mentions": 105,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "73.94B",
       "call_to_put_oi_ratio": 0.63,
@@ -4602,7 +4602,7 @@
     },
     {
       "ticker": "BULL",
-      "mentions": 61,
+      "mentions": 65,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "0",
       "call_to_put_oi_ratio": 0.77,
@@ -4611,7 +4611,7 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 60,
+      "mentions": 64,
       "earnings": "05-28-2025 (-30 days)",
       "market_cap": "2.68T",
       "call_to_put_oi_ratio": 0.53,
@@ -4620,7 +4620,7 @@
     },
     {
       "ticker": "RKLB",
-      "mentions": 53,
+      "mentions": 61,
       "earnings": "05-05-2025 (-53 days)",
       "market_cap": "8.45B",
       "call_to_put_oi_ratio": 0.63,
@@ -4628,17 +4628,8 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "AAPL",
-      "mentions": 38,
-      "earnings": "04-30-2025 (-58 days)",
-      "market_cap": "3.27T",
-      "call_to_put_oi_ratio": 0.58,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
       "ticker": "NKE",
-      "mentions": 37,
+      "mentions": 46,
       "earnings": "06-25-2025 (-2 days)",
       "market_cap": "93.61B",
       "call_to_put_oi_ratio": 0.52,
@@ -4646,17 +4637,17 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "GOOGL",
-      "mentions": 32,
-      "earnings": "04-23-2025 (-65 days)",
-      "market_cap": "1.89T",
-      "call_to_put_oi_ratio": 0.62,
+      "ticker": "AAPL",
+      "mentions": 46,
+      "earnings": "04-30-2025 (-58 days)",
+      "market_cap": "3.27T",
+      "call_to_put_oi_ratio": 0.58,
       "thirty_day_iv": "30",
       "option_activity_7d": 7
     },
     {
       "ticker": "AMD",
-      "mentions": 29,
+      "mentions": 45,
       "earnings": "04-28-2025 (-60 days)",
       "market_cap": "167.27B",
       "call_to_put_oi_ratio": 0.55,
@@ -4665,7 +4656,7 @@
     },
     {
       "ticker": "PLTR",
-      "mentions": 26,
+      "mentions": 39,
       "earnings": "05-05-2025 (-53 days)",
       "market_cap": "201.35B",
       "call_to_put_oi_ratio": 0.54,
@@ -4673,8 +4664,17 @@
       "option_activity_7d": 7
     },
     {
+      "ticker": "GOOGL",
+      "mentions": 34,
+      "earnings": "04-23-2025 (-65 days)",
+      "market_cap": "1.89T",
+      "call_to_put_oi_ratio": 0.62,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
       "ticker": "UNH",
-      "mentions": 24,
+      "mentions": 29,
       "earnings": "04-17-2025 (-71 days)",
       "market_cap": "472.03B",
       "call_to_put_oi_ratio": 0.7,
@@ -4682,17 +4682,8 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "SMCI",
-      "mentions": 22,
-      "earnings": "04-28-2025 (-60 days)",
-      "market_cap": "20.33B",
-      "call_to_put_oi_ratio": 0.61,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
       "ticker": "CRCL",
-      "mentions": 22,
+      "mentions": 29,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "0",
       "call_to_put_oi_ratio": 0.46,
@@ -4700,20 +4691,29 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "HOOD",
-      "mentions": 20,
-      "earnings": "05-06-2025 (-52 days)",
-      "market_cap": "37.12B",
-      "call_to_put_oi_ratio": 0.63,
+      "ticker": "SMCI",
+      "mentions": 26,
+      "earnings": "04-28-2025 (-60 days)",
+      "market_cap": "20.33B",
+      "call_to_put_oi_ratio": 0.61,
       "thirty_day_iv": "30",
       "option_activity_7d": 7
     },
     {
       "ticker": "ATHS",
-      "mentions": 19,
+      "mentions": 25,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "5.14B",
       "call_to_put_oi_ratio": 0.0,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
+      "ticker": "HIMS",
+      "mentions": 24,
+      "earnings": "05-05-2025 (-53 days)",
+      "market_cap": "6.23B",
+      "call_to_put_oi_ratio": 0.52,
       "thirty_day_iv": "30",
       "option_activity_7d": 7
     }
