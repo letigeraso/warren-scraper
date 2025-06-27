@@ -29,7 +29,7 @@ jobs:
 
     - name: 🧠 Run EU Snapshot (Novo, ASML, RELX, etc)
       run: |
-        python eu_snapshot.py
+        python sentiment/eu_snapshot.py
 
     - name: 🔁 Merge Warren + Swaggy output
       run: |
