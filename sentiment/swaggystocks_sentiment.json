@@ -2,7 +2,7 @@
   "wallstreetbets_sentiment": [
     {
       "ticker": "TSLA",
-      "mentions": 240,
+      "mentions": 381,
       "earnings": "04-23-2025 (-65 days)",
       "market_cap": "847.71B",
       "call_to_put_oi_ratio": 0.52,
@@ -11,7 +11,7 @@
     },
     {
       "ticker": "NVDA",
-      "mentions": 150,
+      "mentions": 226,
       "earnings": "05-28-2025 (-30 days)",
       "market_cap": "2.68T",
       "call_to_put_oi_ratio": 0.53,
@@ -19,26 +19,8 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "GLD",
-      "mentions": 130,
-      "earnings": "01-01-1970 (-20266 days)",
-      "market_cap": "73.94B",
-      "call_to_put_oi_ratio": 0.63,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
-      "ticker": "PLTR",
-      "mentions": 100,
-      "earnings": "05-05-2025 (-53 days)",
-      "market_cap": "201.35B",
-      "call_to_put_oi_ratio": 0.54,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
       "ticker": "CRCL",
-      "mentions": 100,
+      "mentions": 201,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "0",
       "call_to_put_oi_ratio": 0.46,
@@ -46,8 +28,35 @@
       "option_activity_7d": 7
     },
     {
+      "ticker": "PLTR",
+      "mentions": 182,
+      "earnings": "05-05-2025 (-53 days)",
+      "market_cap": "201.35B",
+      "call_to_put_oi_ratio": 0.54,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
+      "ticker": "GLD",
+      "mentions": 169,
+      "earnings": "01-01-1970 (-20266 days)",
+      "market_cap": "73.94B",
+      "call_to_put_oi_ratio": 0.63,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
+      "ticker": "GOOGL",
+      "mentions": 160,
+      "earnings": "04-23-2025 (-65 days)",
+      "market_cap": "1.89T",
+      "call_to_put_oi_ratio": 0.62,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
       "ticker": "BULL",
-      "mentions": 97,
+      "mentions": 155,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "0",
       "call_to_put_oi_ratio": 0.77,
@@ -55,17 +64,8 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "AAPL",
-      "mentions": 78,
-      "earnings": "04-30-2025 (-58 days)",
-      "market_cap": "3.27T",
-      "call_to_put_oi_ratio": 0.58,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
       "ticker": "AMD",
-      "mentions": 78,
+      "mentions": 125,
       "earnings": "04-28-2025 (-60 days)",
       "market_cap": "167.27B",
       "call_to_put_oi_ratio": 0.55,
@@ -74,7 +74,7 @@
     },
     {
       "ticker": "HIMS",
-      "mentions": 76,
+      "mentions": 115,
       "earnings": "05-05-2025 (-53 days)",
       "market_cap": "6.23B",
       "call_to_put_oi_ratio": 0.52,
@@ -82,26 +82,8 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "RKLB",
-      "mentions": 66,
-      "earnings": "05-05-2025 (-53 days)",
-      "market_cap": "8.45B",
-      "call_to_put_oi_ratio": 0.63,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
-      "ticker": "GOOGL",
-      "mentions": 56,
-      "earnings": "04-23-2025 (-65 days)",
-      "market_cap": "1.89T",
-      "call_to_put_oi_ratio": 0.62,
-      "thirty_day_iv": "30",
-      "option_activity_7d": 7
-    },
-    {
       "ticker": "GOOG",
-      "mentions": 45,
+      "mentions": 104,
       "earnings": "04-23-2025 (-65 days)",
       "market_cap": "1.89T",
       "call_to_put_oi_ratio": 0.64,
@@ -109,17 +91,17 @@
       "option_activity_7d": 7
     },
     {
-      "ticker": "NKE",
-      "mentions": 44,
-      "earnings": "06-25-2025 (-2 days)",
-      "market_cap": "93.61B",
-      "call_to_put_oi_ratio": 0.52,
+      "ticker": "AAPL",
+      "mentions": 103,
+      "earnings": "04-30-2025 (-58 days)",
+      "market_cap": "3.27T",
+      "call_to_put_oi_ratio": 0.58,
       "thirty_day_iv": "30",
       "option_activity_7d": 7
     },
     {
       "ticker": "UNH",
-      "mentions": 43,
+      "mentions": 103,
       "earnings": "04-17-2025 (-71 days)",
       "market_cap": "472.03B",
       "call_to_put_oi_ratio": 0.7,
@@ -128,10 +110,28 @@
     },
     {
       "ticker": "QQQ",
-      "mentions": 36,
+      "mentions": 71,
       "earnings": "01-01-1970 (-20266 days)",
       "market_cap": "184.34B",
       "call_to_put_oi_ratio": 0.4,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
+      "ticker": "RKLB",
+      "mentions": 65,
+      "earnings": "05-05-2025 (-53 days)",
+      "market_cap": "8.45B",
+      "call_to_put_oi_ratio": 0.63,
+      "thirty_day_iv": "30",
+      "option_activity_7d": 7
+    },
+    {
+      "ticker": "AMZN",
+      "mentions": 59,
+      "earnings": "04-28-2025 (-60 days)",
+      "market_cap": "2.04T",
+      "call_to_put_oi_ratio": 0.55,
       "thirty_day_iv": "30",
       "option_activity_7d": 7
     }
