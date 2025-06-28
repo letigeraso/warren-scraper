@@ -1,9 +1,9 @@
 {
   "name": "warren-scraper",
   "version": "1.0.0",
-  "main": "Warrensnews.js",
+  "main": "scrapeRSI.js",
   "scripts": {
-    "start": "node Warrensnews.js"
+    "start": "node scrapeRSI.js"
   },
   "dependencies": {
     "puppeteer": "^21.3.8"
