@@ -6,6 +6,8 @@
     "start": "node scrapeRSI.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.8"
+    "puppeteer": "^21.3.8",
+    "node-fetch": "^3.3.1"
   }
 }
+
