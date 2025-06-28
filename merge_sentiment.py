@@ -2,7 +2,7 @@ import json
 import os
 
 # === Load Warren Screener Data ===
-with open("warrensoutputfile.json", "r") as f:
+with open("stockdata.json", "r") as f:
     warren_data = json.load(f)
 
 # === Load SwaggyStocks Sentiment Data ===
