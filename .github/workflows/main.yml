@@ -13,33 +13,37 @@ jobs:
     - name: 📥 Checkout repo
       uses: actions/checkout@v3
 
+    - name: ⚙️ Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: ▶️ Run Warren scraper
+      run: npm start
+
     - name: 🐍 Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
 
-    - name: 📦 Install dependencies
+    - name: 📦 Install Python dependencies
       run: |
         pip install playwright beautifulsoup4 yfinance
         playwright install chromium
 
     - name: 🤖 Run Swaggy sentiment scraper
-      run: |
-        python sentiment/swaggy_scraper.py
+      run: python sentiment/swaggy_scraper.py
 
     - name: 🧠 Run EU Snapshot (Novo, ASML, RELX, etc)
-      run: |
-        python sentiment/eu_snapshot.py
+      run: python sentiment/eu_snapshot.py
 
     - name: 🔁 Merge Warren + Swaggy output
-      run: |
-        python merge_sentiment.py
+      run: python merge_sentiment.py
 
     - name: 💾 Commit results
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add stockdata.json sentiment/swaggystocks_sentiment.json sentiment/eu_snapshot.json combined_output.json
+        git add stockdata.json sentiment/swaggystocks_sentiment.json sentiment/eu_snapshot.json combined_output.json warrensoutputfile.json
         git commit -m "🔄 Daily auto-update $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         git push
-
