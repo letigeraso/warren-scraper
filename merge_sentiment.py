@@ -1,76 +1,98 @@
 import json
 import os
 
-# === Load Warren Screener Data ===
-with open("warrensoutputfile.json", "r") as f:
-    warren_data = json.load(f)
+def load_json(path):
+    if not os.path.exists(path):
+        print(f"⚠️ File not found: {path}")
+        return None
+    with open(path, "r") as f:
+        return json.load(f)
 
-# === Load SwaggyStocks Sentiment Data ===
-with open("sentiment/swaggystocks_sentiment.json", "r") as f:
-    swaggy_data = json.load(f)
+def extract_list(data, expected_keys):
+    """
+    Given a JSON object or list, find the list of records to iterate over.
+    expected_keys: possible keys under which list can be nested.
+    """
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        for key in expected_keys:
+            if key in data and isinstance(data[key], list):
+                return data[key]
+    print(f"⚠️ Could not find expected list in data keys {list(data.keys()) if isinstance(data, dict) else 'not dict'}")
+    return []
 
-# === Load EU Snapshot Data ===
-eu_snapshot_path = "sentiment/eu_snapshot.json"
-eu_snapshot = {}
-if os.path.exists(eu_snapshot_path):
-    with open(eu_snapshot_path, "r") as f:
-        eu_snapshot = json.load(f)
+def get_ticker_key(record):
+    for key in ["ticker", "symbol", "s", "name"]:
+        if key in record:
+            return key
+    return None
 
-# === Merge Logic ===
+# Load data
+warren_raw = load_json("warrensoutputfile.json")
+swaggy_raw = load_json("sentiment/swaggystocks_sentiment.json")
+eu_snapshot_raw = load_json("sentiment/eu_snapshot.json")
+
+warren_list = extract_list(warren_raw, expected_keys=["data", "stocks", "results"])
+swaggy_list = extract_list(swaggy_raw, expected_keys=["data", "tickers", "sentiment"])
+eu_snapshot_dict = eu_snapshot_raw if isinstance(eu_snapshot_raw, dict) else {}
+
 combined = {}
 
-for stock in warren_data:
-    ticker = stock.get("ticker")
-    if not ticker:
+# Merge Warren data
+for stock in warren_list:
+    ticker_key = get_ticker_key(stock)
+    if not ticker_key:
+        print(f"⚠️ Skipping Warren record with no ticker: {stock}")
         continue
-
-    combined[ticker] = {
-        "ticker": ticker,
-        "name": stock.get("name"),
-        "price": stock.get("price"),
-        "percentChange": stock.get("percentChange"),
-        "volume": stock.get("volume"),
-        "rsi": stock.get("rsi"),
-        "pe": stock.get("pe"),
-        "sector": stock.get("sector"),
-        "dividendYield": stock.get("dividendYield"),
-        "source": "warren",
-    }
-
-# Add SwaggyStocks sentiment (if it's not already there)
-for entry in swaggy_data:
-    if not isinstance(entry, dict):
-        print(f"⚠️ Skipping malformed sentiment entry: {entry}")
-        continue
-
-    ticker = entry.get("symbol")
-    if not ticker:
-        continue
-
-    if ticker not in combined:
-        combined[ticker] = {"ticker": ticker}
-
-    combined[ticker]["swaggy_mentions"] = entry.get("mentions")
-    combined[ticker]["swaggy_sentiment"] = entry.get("sentiment")
-
-# Add EU snapshot overlays (rsi, oversold etc.)
-for ticker, data in eu_snapshot.items():
-    if not isinstance(data, dict):
-        continue
-    if ticker not in combined:
-        combined[ticker] = {"ticker": ticker}
+    ticker = stock[ticker_key]
+    combined.setdefault(ticker, {})
     combined[ticker].update({
-        "price": data.get("price"),
-        "percentChange": data.get("percentChange"),
-        "rsi": data.get("rsi"),
-        "oversold": data.get("oversold"),
-        "country": data.get("country"),
-        "inPortfolio": data.get("inPortfolio"),
-        "sector": data.get("sector"),
-        "source": combined[ticker].get("source", "eu_snapshot")
+        "ticker": ticker,
+        "name": stock.get("name") or stock.get("description"),
+        "price": stock.get("price"),
+        "change": stock.get("percentChange") or stock.get("change"),
+        "volume": stock.get("volume"),
+        "rsi": stock.get("rsi") or stock.get("RSI"),
+        "pe": stock.get("pe") or stock.get("price_earnings_ttm"),
+        "sector": stock.get("sector") or stock.get("sector.tr"),
+        "dividendYield": stock.get("dividendYield") or stock.get("dividends_yield_current"),
+        "source_warren": True
     })
 
-# === Save merged output ===
+# Merge SwaggyStocks sentiment
+for entry in swaggy_list:
+    if not isinstance(entry, dict):
+        print(f"⚠️ Skipping malformed swaggy sentiment entry: {entry}")
+        continue
+    ticker_key = get_ticker_key(entry)
+    if not ticker_key:
+        continue
+    ticker = entry[ticker_key]
+    combined.setdefault(ticker, {})
+    combined[ticker].update({
+        "swaggy_mentions": entry.get("mentions"),
+        "swaggy_sentiment": entry.get("sentiment"),
+        "source_swaggy": True
+    })
+
+# Merge EU snapshot
+for ticker, data in eu_snapshot_dict.items():
+    if not isinstance(data, dict):
+        continue
+    combined.setdefault(ticker, {})
+    combined[ticker].update({
+        "price_eu": data.get("price"),
+        "change_eu": data.get("percentChange"),
+        "rsi_eu": data.get("rsi"),
+        "oversold_eu": data.get("oversold"),
+        "country_eu": data.get("country"),
+        "inPortfolio": data.get("inPortfolio"),
+        "sector_eu": data.get("sector"),
+        "source_eu_snapshot": True
+    })
+
+# Write output
 with open("combined_output.json", "w") as f:
     json.dump(combined, f, indent=2)
 
