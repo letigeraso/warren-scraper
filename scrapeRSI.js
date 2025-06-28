@@ -144,7 +144,7 @@ async function main() {
       }
     };
 
-    await fs.writeFile('combined_output.json', JSON.stringify(combinedData, null, 2), 'utf-8');
+    await fs.writeFile('stockdata.json', JSON.stringify(combinedData, null, 2), 'utf-8');
     console.log('Data saved to stockdata.json');
   } catch (error) {
     console.error('Error fetching data:', error);
