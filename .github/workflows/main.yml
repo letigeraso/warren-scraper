@@ -1,4 +1,4 @@
-name: 📊 Daily Warren + Sentiment Scrape
+name: 📊 Daily Warren + Sentiment Scrape 
 
 on:
   workflow_dispatch:      # allows manual runs
@@ -13,7 +13,7 @@ jobs:
     - name: 📥 Checkout repo
       uses: actions/checkout@v3
 
-      - name: Set up Node.js
+    - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '20'
