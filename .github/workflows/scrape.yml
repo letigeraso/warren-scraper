@@ -2,7 +2,7 @@ name: Daily Warren Scraper
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Runs at 07:00 CET daily
+   
   workflow_dispatch:     # Manual trigger via GitHub UI
 
 jobs:
