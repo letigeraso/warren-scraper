@@ -2,8 +2,7 @@ name: 📊 Daily Warren + Sentiment Scrape
 
 on:
   workflow_dispatch:      # Manual trigger
-  schedule:
-    - cron: '30 6 * * 1-5'  # Weekdays 06:30 UTC (08:30 CET)
+
 
 jobs:
   build:
